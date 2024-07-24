@@ -13,7 +13,7 @@ There is a significant [association between social media use and depression](htt
 
 ## Installation
 
- * Chrome: clone this repository, go to [chrome://extensions/](chrome://extensions/) and click "Load Unpacked", then select the `chrome` folder.
+ * Chrome: clone this repository, go to `chrome://extensions/` and click **Load Unpacked**, then select the `chrome` folder.
 
 ## TODO
 
