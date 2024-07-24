@@ -46,7 +46,7 @@ if (matchesDomain){
     document.body.prepend(stickyContainer);
     const warningLabel = document.createElement('div');
     warningLabel.className = "smwl-warningSticker";
-    warningLabel.style.cssText = `position:fixed; bottom:0%; width:-webkit-fill-available; height:auto; padding:20px; z-index:1000000; background:white; border:10px solid black;color:black; font-size:2rem; line-height:normal; text-align: center;align-items:center; justify-content:space-around; display: flex; font-family:"Roboto Condensed",Helvetica,Arial,sans-serif; font-weight: 700`;
+    warningLabel.style.cssText = `position:fixed; bottom:0; left: 0; right: 0; width:-webkit-fill-available; height:auto; padding:20px; z-index:1000000; background:white; border:10px solid black;color:black; font-size:2rem; line-height:normal; text-align: center;align-items:center; justify-content:space-around; display: flex; font-family:"Roboto Condensed",Helvetica,Arial,sans-serif; font-weight: 700`;
     warningLabel.onclick = () => {
         warningLabel.style.display = 'none';
     };
