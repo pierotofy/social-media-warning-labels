@@ -15,6 +15,12 @@ There is a significant [association between social media use and depression](htt
 
  * Chrome: clone this repository, go to `chrome://extensions/` and click **Load Unpacked**, then select the `chrome` folder.
 
+## Add more sites
+
+By default a handful of sites will display the warning labels. You can add more by right-clicking the extension and selecting **Options**.
+
+Also consider opening a pull request to add more default sites.
+
 ## TODO
 
  - [ ] Add more sources and labels to `content.js`
