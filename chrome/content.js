@@ -56,7 +56,7 @@ if (matchesDomain){
     const labelIdx = Math.floor(random(0, warning.labels.length));
     const label = warning.labels[labelIdx];
     const sources = warning.sources.map((s, idx) => {
-        return `[<a href="${s}">${idx + 1}</a>]`;
+        return `[<a href="${s}" style="color: blue">${idx + 1}</a>]`;
     }).join(" ");
 
     const warningText = document.createElement('span');
