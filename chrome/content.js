@@ -11,7 +11,8 @@ if (!options.sites){
         "facebook.com",
         "instagram.com",
         "youtube.com",
-        "tiktok.com"
+        "tiktok.com",
+        "x.com"
     ];
 
     chrome.storage.sync.set({ options });
